@@ -2,7 +2,7 @@ FROM jenkins/jenkins
 
 USER root
 
-# Install ansible
+# Install ansibles
 RUN apt update -y
 RUN curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py" && python get-pip.py
 
