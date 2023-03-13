@@ -8,7 +8,7 @@ pipeline {
 
     stages {
 
-        stage('Build') {
+        stage('Builds') {
             steps {
                 sh '''
                     ./jenkins/build/mvn.sh mvn -B -DskipTests clean package
