@@ -7,8 +7,8 @@ echo "********************"
 IMAGE="maven-project"
 
 echo "** Logging in ***"
-docker login -u sibu123 -p $PASS
+docker login -u haneef786 -p $PASS
 echo "*** Tagging image ***"
-docker tag $IMAGE:$BUILD_TAG sibu123/$IMAGE:$BUILD_TAG
+docker tag $IMAGE:$BUILD_TAG haneef786/$IMAGE:$BUILD_TAG
 echo "*** Pushing image ***"
-docker push sibu123/$IMAGE:$BUILD_TAG
+docker push haneef786/$IMAGE:$BUILD_TAG
